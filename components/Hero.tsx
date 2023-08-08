@@ -31,7 +31,7 @@ function Hero({}: Props) {
         </h2>
         <h1 className="text-5xl lg:6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#f7ABBA" />
+          <Cursor cursorColor="#F7Ab0A" />
         </h1>
         <div className="pt-5">
           <Link href="#about">

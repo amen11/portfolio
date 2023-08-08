@@ -31,12 +31,12 @@ function About({}: Props) {
         }}
         src="https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/295808566_2136011589890165_348670307451906775_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UMjGetmfDSsAX9UX3_m&_nc_ht=scontent.ftun15-1.fna&oh=00_AfDWPDXzBEh66rkOEzOkI0wIniiHUjzbwvyodgR5gxm-sw&oe=64D5888A"
         alt="Picture of the author"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px] mt-24"
       />
-      <div className="space-y-10 px-0 md:px-10">
+      <div className="space-y-10 px-0 md:px-10 mt-8">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
-          <span className="underline decoration-[#f7ABBA]/50">little</span>{" "}
+          <span className="underline decoration-[#F7Ab0A]/50">little</span>{" "}
           background
         </h4>
         <p className='text-base'>
