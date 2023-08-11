@@ -40,7 +40,7 @@ function Header({}: Props) {
           bgColor="transparent"
         />
       </motion.div>
-      <a href="#contact">
+      {/* <a href="#contact"> */}
         <motion.div
           initial={{
             x: 500,
@@ -65,7 +65,7 @@ function Header({}: Props) {
             Get In Touch
           </p>
         </motion.div>
-      </a>
+      {/* </a> */}
     </header>
   );
 }
