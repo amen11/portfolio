@@ -12,7 +12,7 @@ interface Image {
     };
 }
 
-export interface Pageinfo extends SanityBody {
+export interface PageInfo extends SanityBody {
     _type: "pageInfo";
     adress: string;
     backgroundInformation: string;
