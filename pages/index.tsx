@@ -8,7 +8,6 @@ import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
 import { Image } from "next/dist/client/image-component";
 import  logo  from "../public/amenlogorouneded.png"
-import { urlFor } from "@/sanity";
 import { Experience, Project, Skill, Social, PageInfo } from "@/typings";
 import { fetchExperiences } from "@/utils/fetchExperience";
 import { fetchPageInfo } from "@/utils/fetchPageInfo";
