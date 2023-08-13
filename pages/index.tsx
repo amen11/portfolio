@@ -6,6 +6,9 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
+import { Image } from "next/dist/client/image-component";
+import  logo  from "../public/amenlogorouneded.png"
+import { urlFor } from "@/sanity";
 import { Experience, Project, Skill, Social, PageInfo } from "@/typings";
 import { fetchExperiences } from "@/utils/fetchExperience";
 import { fetchPageInfo } from "@/utils/fetchPageInfo";
@@ -53,7 +56,7 @@ const Home = ({pageInfo, experiences, skills, projects, socials} : Props) => {
       </section>
       {/* projects*/}
       <section id="projects" className="snap-start">
-        <Projects />
+        <Projects projects={projects} />
       </section>
 
       {/* contact me */}
@@ -63,10 +66,11 @@ const Home = ({pageInfo, experiences, skills, projects, socials} : Props) => {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img
-              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src=""
+            <Image
+              className="w-10 h-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+              src={logo}
               alt="logo"
+              
             />
           </div>
         </footer>
