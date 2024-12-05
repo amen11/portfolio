@@ -42,7 +42,7 @@ function ExperienceCard({ experience }: Props) {
           ))}
           
           {/* Add more li elements here */}
-        </ul> */}
+{/*         </ul> */} */}
       </div>
     </article>
   );
